@@ -22,9 +22,9 @@ public class WinningNumbers {
 
         for(int i = 0; i <= 50; i++) {
             if (lotteryNumbers[i])
-                fw.write(i + "\t");
-            fw.write('\n');
-            fw.close();
+                bw.write(i + "\t");
+            bw.write('\n');
+            bw.close();
         }
     }
 }
